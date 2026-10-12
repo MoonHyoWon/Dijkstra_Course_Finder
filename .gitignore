@@ -1,0 +1,22 @@
+# Visual Studio local settings and build outputs
+.vs/
+x64/
+Debug/
+Release/
+*.vcxproj.user
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.ipch
+*.tlog
+*.lastbuildstate
+*.exe.recipe
+*.log
+
+# Development archives and unused files
+시간대 백업/
+안 써요/
+*초기*.txt
+*백업*.txt
+다익스트라 가중치(거리순).txt
