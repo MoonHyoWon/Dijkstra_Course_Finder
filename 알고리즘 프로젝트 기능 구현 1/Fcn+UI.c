@@ -311,7 +311,7 @@ void start_fcn(void)
 		join_fcn();
 	}
 	else {
-		start_fcn(); //자기 자신을 호출할지는 생각해봐야함~ ///////////////////////////////////////////////////////////////
+		start_fcn();
 	}
 }
 
@@ -978,7 +978,7 @@ void deleteBookMark(int productNum)
 		}
 		else fprintf(markNotFile, "%s %s\n", m[i].id, m[i].className);
 		i++;
-	} //////////////// ***********************************************************************************여기 수정해야됨! 0605 문제 없는 것 같은데?
+	}
 
 	fclose(bookmarkFile); //구조체에 따로 저장했기에 파일을 굳이 열어둘 필요가 없다.
 	fclose(markNotFile);
@@ -1177,7 +1177,7 @@ void Ques(char name[]) {
 		final[j] = N[j].count;                      //count를 final(최종 정렬본) 변수에 저장한다
 	}
 }
-//원래 아래랑 합쳐있는 거였는데 출력이 따로 필요해서 분리함!
+
 
 //다익스트라 거리 기준을 통해 출력하기
 void printQues(void)
